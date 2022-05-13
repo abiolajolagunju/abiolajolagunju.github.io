@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.google.com/specimen/Rubik);
+
+.container1 {
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 0 7%;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.header {
+  padding: 10px 16px;
+  background: white;
+  width: 100%;
+  background-size: auto;
+  color: #f1f1f1;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+nav ul {
+  flex: 1;
+  margin-left: 500px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: hsl(0, 94%, 66%);
+}
+nav .btn {
+  color: #fff;
+  background-color: hsl(0, 94%, 66%);
+  text-decoration: none;
+  border: 1px solid hsl(0, 94%, 66%);
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+nav .btn:hover {
+  background-color: white;
+  color: hsl(0, 94%, 66%);
+  border-radius: 2px solid hsl(0, 94%, 66%);
+}
+
+/* First section of the page */
+
+.first-content {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.A-side {
+  width: 50%;
+  padding-bottom: -40px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 0 7%;
+  color: #fff;
+}
+.A-side h1 {
+  font-size: 35px;
+  color: rgb(48, 48, 48);
+  font-weight: 400, 500;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+.A-side p {
+  font-size: 17px;
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  padding-top: 20px;
+}
+.fst-btn {
+  padding-top: 30px;
+}
+.a-btn1 {
+  color: #fff;
+  background-color: hsl(231, 69%, 60%);
+  text-decoration: none;
+  border: 1px solid hsl(231, 69%, 60%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.a-btn1:hover {
+  background-color: #fff;
+  color: hsl(231, 69%, 60%);
+  border-radius: 2px solid hsl(231, 69%, 60%);
+}
+.a-btn2 {
+  color: rgb(39, 39, 39);
+  background-color: rgb(240, 240, 240);
+  text-decoration: none;
+  border: 1px solid rgb(240, 240, 240);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 2px #e6e6e6;
+  cursor: pointer;
+}
+.a-btn2:hover {
+  background-color: #fff;
+  color: rgb(39, 39, 39);
+  border-radius: 2px solid rgb(39, 39, 39);
+}
+.B-side {
+  width: 50%;
+  height: 45vh;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 40em 0em 0em 40em;
+  margin-top: 70px;
+}
+.B-img img{
+  margin-top: -140px;
+  padding-right: 50px;
+}
+
+
+
+
+/* Second section of the body of landing page */
+
+.second-content {
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 0 7%;
+  color: #fff;
+  padding-top: 150px;
+  text-align: center;
+}
+.sec-1 h2 {
+  font-size: 35px;
+  color: rgb(39, 39, 39);
+  font-weight: 600;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+.sec-1 p {
+  font-size: 17px;
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* Filter Section */
+
+#myDisplayContainer{
+  display: flex;
+ justify-content: center;
+}
+#myDisplayContainer h5{
+  font-size: 17px;
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  padding: 40px;
+  cursor: pointer;
+  }
+#myDisplayContainer h5:hover{
+  color: hsl(0, 94%, 66%);
+  }
+#myDisplayContainer h5.active{
+  color: hsl(0, 94%, 66%);
+}
+
+.hl{
+  width: 78%;
+  padding-left: 250px;
+}
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.container2 {
+  overflow: hidden;
+ padding-top: 30px;
+}
+.filter-cont{
+display: flex;
+}
+.filterDiv {
+  width: auto;
+  margin: 2px;
+  display: none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.fit {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.fit-side1{
+  color: rgb(112, 112, 112);
+  width: 70%;
+}
+.fit-side1 h1{
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  font-weight: 400, 500;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
+.fit-side1 p{
+  font-size: 17px;
+  color: rgb(48, 48, 48);
+  font-weight: 400, 500;
+  font-family: "Rubik";
+  src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+
+/* The third section of the landing page */
+
+.third-content {
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 0 7%;
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.third-1 h2 {
+    font-size: 35px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  }
+  .third-1 p {
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+    padding-top: 20px;
+     }
+
+/* Card section on the third section of page */
+.card{
+    display: flex;
+}
+
+/* First Card */
+.card-1 {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card-1 h1{
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  .title {
+    color: grey;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  
+  /* Second Card */
+  .card-2 {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .card-2 h1{
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  /* Third Card */
+  .card-3 {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+  }
+  .card-3 h1{
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    color: #fff;
+    background-color: hsl(231, 69%, 60%);
+    text-decoration: none;
+    border: 1px solid hsl(231, 69%, 60%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  button:hover{
+    background-color: #fff;
+    color: hsl(231, 69%, 60%);
+    border-radius: 2px solid hsl(231, 69%, 60%);
+  }
+
+
+
+  /* The fourth section of the landing page */
+  .fourth-section{
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  .fourth-1 h2{
+    font-size: 35px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+    text-align: center;
+  }
+  .fourth-1 p{
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+    padding-top: 20px;
+    text-align: center;
+     }
+
+
+
+     /* FAQ CSS */
+     .faq-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        }
+        .hr-line{
+          width: 60%;
+          margin: auto;
+          
+        }
+        /* Style the buttons that are used to open and close the faq-page body */
+        .faq-page {
+            /* background-color: #eee; */
+            color: rgb(112, 112, 112);
+            cursor: pointer;
+            padding: 30px 20px;
+            width: 60%;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            margin: auto;
+        }
+        .faq-body{
+           margin: auto;
+           width: 50%; 
+           padding: auto;
+        }
+      .faq-page{
+      font-size: 18px;
+      color: rgb(112, 112, 112);
+      font-weight: 400;
+      font-family: "Rubik";
+      src: url(Rubik/Rubik-VariableFont_wght.ttf);
+      }
+        .faq-body p{
+            color: #444;
+        }
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active,
+        .faq-page:hover {
+            background-color: #F9F9F9;
+        }
+        /* Style the faq-page panel. Note: hidden by default */
+        .faq-body {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+        }
+        .faq-page:after {
+            content: '\02795';
+            /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: #777;
+            float: right;
+            margin-left: 5px;
+        }
+        .active:after {
+            content: "\2796";
+            /* Unicode character for "minus" sign (-) */
+        }
+       
+      .special button{
+      color: #fff;
+      background-color: hsl(231, 69%, 60%);
+      text-decoration: none;
+      border: 1px solid hsl(231, 69%, 60%);
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 500px;
+      text-align: center;
+      
+    }
+    .special button:hover{
+      background-color: #fff;
+      color: hsl(231, 69%, 60%);
+      border-radius: 2px solid hsl(231, 69%, 60%);
+    }
+
+
+
+    /* Newsletter Section of the page */
+    .news-letter{
+      background: hsl(231, 69%, 60%);
+      width: 100%;
+      height:50vh;
+    }
+
+  .last1{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .last1 p{
+    color:#fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  }
+  .last1 h1{
+    color: #fff;
+    font-family: "Rubik";
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+  }
+
+  .news-form{
+    display: flex;
+   justify-content: center;
+  }
+  .col-1 input{
+  padding: 10px;
+  border: 1px solid hsl(0, 94%, 66%);
+  border-radius: 5px;
+  margin-top: 10px;
+  } 
+  .col-1 input:hover{
+  background-color: white;
+  border-radius: 2px solid hsl(0, 94%, 66%);
+  }
+
+  .col-2 button{
+  color: #fff;
+  background-color: hsl(0, 94%, 66%);
+  text-decoration: none;
+  border: 1px solid hsl(0, 94%, 66%);
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.col-2 button:hover {
+  background-color: white;
+  color: hsl(0, 94%, 66%);
+  border-radius: 2px solid hsl(0, 94%, 66%);
+}
+
+
+/* Last section of the page */
+
+.dark-footer{
+  background: hsl(229, 31%, 21%);
+  width: 100%;
+  height:12vh;
+}
+.navbar {
+ display: flex;
+ padding-top: 10px;
+}
+.navbar .logo {
+  cursor: pointer;
+  margin-left: 50px;
+}
+.navbar a {
+  color: #f2f2f2;
+  padding: 14px;
+  font-size: 14px;
+  text-decoration: none;
+ }
+.navbar a:hover {
+  color: hsl(0, 94%, 66%);
+}
+.navbar .fa:hover{
+  color: hsl(0, 94%, 66%);
+}
